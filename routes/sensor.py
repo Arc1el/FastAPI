@@ -2,6 +2,8 @@ from typing import Optional
 import uvicorn
 from fastapi import FastAPI
 from fastapi import APIRouter, Depends
+from sqlalchemy.orm import Session
+from db.connection import get_db
 from fastapi.requests import Request
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
