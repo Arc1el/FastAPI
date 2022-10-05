@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hospetter"
+name = "apps"
 version = "0.1.0"
 description = ""
 authors = ["Arc1el <khm970514@gmail.com>"]
@@ -7,11 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-uvicorn = {extras = ["standard"], version = "^0.18.3"}
-fastapi = "^0.85.0"
-SQLAlchemy = "^1.4.41"
-databases = {extras = ["mysql"], version = "^0.6.1"}
-python-dotenv = "^0.21.0"
 
 
 [build-system]
